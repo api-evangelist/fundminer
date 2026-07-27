@@ -1,7 +1,25 @@
 aid: fundminer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fundminer.png
 name: FundMiner
-description: FundMiner is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: FundMiner is a fund management and donor stewardship platform for mission-driven
+  organizations, giving universities, healthcare systems, and community foundations one
+  place to manage the full fund lifecycle. It combines fund management with compliance
+  monitoring, impact and donor reporting, and a branded donor portal that gives donors
+  real-time visibility into how their gifts are used. The platform integrates with existing
+  financial systems and offers role-based dashboards and access controls. FundMiner is a
+  Techstars-backed company; it exposes no public developer API, SDK, or API reference at
+  this time, so this profile captures its public identity and web presence.
 url: https://raw.githubusercontent.com/api-evangelist/fundminer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fund Management
+- Donor Engagement
+- Nonprofit
+- Higher Education
+- Fundraising
+- Compliance
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://fundminer.com/
+- type: Blog
+  url: https://hub.fundminer.com/fundminer-blog
+- type: Login
+  url: https://fund-miner.com
+- type: TermsOfService
+  url: https://www.fundminer.com/terms-of-service-agreement-fundminer
+- type: PrivacyPolicy
+  url: https://www.fundminer.com/privacy-policy
+- type: DomainSecurity
+  url: security/fundminer-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
