@@ -1,0 +1,40 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+source:
+- https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+marketplace_apps: []
+edges:
+- partner_name: Blackbaud (Blackbaud Marketplace)
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  partner_note: Blackbaud has no all/* repo (catalog gap); publisher side only
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: blackbaud-marketplace
+  evidence: https://app.blackbaud.com/marketplace/applications/3895b361-d6cc-4e57-bf8f-11b1fa5b5629
+  store: https://app.blackbaud.com/marketplace
+  store_api: https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+  publisher: FundMiner
+  publisher_match: domain
+  publisher_domain: fundminer.com
+  apps:
+  - FundMiner
+  listing_count: 1
+  compatible_solutions:
+  - bbcrm
+  - bbgrant
+  - edu
+  - etap
+  - fenxt
+  - merch
+  - renxt
+  - tr
+  badges:
+  - Reviewed by Blackbaud
+  detected_by: sweep-nonprofit.py
+  detected: '2026-10-14'
